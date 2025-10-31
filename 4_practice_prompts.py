@@ -1,4 +1,4 @@
-
+e_
 # ----------------------------------------
 # Print Practice Exercises
 # ----------------------------------------
@@ -20,13 +20,25 @@ print(500 + 55)
 ##############################################################################################################
 # Find 3 objects around the room and create variables from it,
 # Insert those variables into an f-string sentence(look at slide 22)in repl.it
-
+x = "mouse"
+y = "Keyboard"
+z = "poster"
+print(f"We are using a {y} and {x} to code. There is a {z} on the walls of the room")
 
 # Familiarize yourself with the syntax of the print() function.
 # Print your name.
+Group_leader = "Caiden"
+Name1 = "Ronaldo"
+Name2 = "Eddie"
+
+print("I hate " + Group_leader + " and " + Name2 )
+
+
 # Print today's date.
 # Print the name of your favorite movie.
-
+date ="Halloween"
+print("Today is " + date + ", YAY!!!!!")
+    
 # Print your name and age on separate lines using a single print() function.
 # Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
 
@@ -46,12 +58,17 @@ print(500 + 55)
 #challenge
 # find a summary of the movie blue beetle online and create a 
 # variable called blue_beetle_summary and print it it out to the screen
-
+blue_beetle_summary = "Jaime Reyes suddenly finds himself in possession of an ancient relic of alien biotechnology called the Scarab. When the Scarab chooses Jaime to be its symbiotic host, he's bestowed with an incredible suit of armor that's capable of extraordinary and unpredictable powers, forever changing his destiny as he becomes the superhero Blue Beetle."
 # print the length of the summary
+print(len(blue_beetle_summary))
 # upper case the entire summary
+print(blue_beetle_summary.upper())
 # print the summary
+print(blue_beetle_summary)
 # print the summary in lowercase
+print(blue_beetle_summary.lower())
 # replace the word blue with red
+print(str.replace(blue_beetle)
 # print the summary
 # string index the word beetle and print it out
 # print the last word of the summary
