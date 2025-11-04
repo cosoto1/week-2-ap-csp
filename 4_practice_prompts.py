@@ -68,14 +68,16 @@ print(blue_beetle_summary)
 # print the summary in lowercase
 print(blue_beetle_summary.lower())
 # replace the word blue with red
-print(str.replace(blue_beetle_summary))
+new
+print(str.replace "blue": with"re" (blue_beetle_summary))
 # print the summary
+print(blue_beetle_summary)
 # string index the word beetle and print it out
+print(str("beetle"))
 # print the last word of the summary
-# print the summary in reverse
+t)
 
-
-##########################input practice#############################################
+# ##########################input practice#############################################
 #input is when we ask the user for input/data
 # Ask the user to enter their name.
 
@@ -83,6 +85,10 @@ print(str.replace(blue_beetle_summary))
 # Write Python code that allows the user to enter their answer, by making them the following question:
 # What are you learning today?
 # Your code must be able to print to the screen whatever is entered by the user (use the print function).
+
+question1 = int(input("what are you doing in class today?"))
+question2 = int(input("who is your first period teacher?"))
+print("I have my first class with " + question2 + ", and we are doing " + question1)
 
 # Input Practice #2
 # Write Python code that allows the user to enter their answer, by making them the following question:

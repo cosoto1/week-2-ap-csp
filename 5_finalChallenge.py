@@ -17,3 +17,17 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+print("Welcome to the Beer Name Generator!")
+print("Answer the following questions with just one word each.\n")
+
+# Ask for two words
+adjective = input("What's one word that describes your beer's personality?")
+animal = input("What's your favorite animal?=")
+
+# Combine the words to make a brand name
+beer_name = adjective + " " + animal
+
+# Display the result with quotes and formatting
+print("Your unique beer brand could be called:")
+print(f"{beer_name} — A flavor worth remembering!")
