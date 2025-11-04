@@ -1,4 +1,4 @@
-e_
+
 # ----------------------------------------
 # Print Practice Exercises
 # ----------------------------------------
@@ -68,7 +68,7 @@ print(blue_beetle_summary)
 # print the summary in lowercase
 print(blue_beetle_summary.lower())
 # replace the word blue with red
-print(str.replace(blue_beetle)
+print(str.replace(blue_beetle_summary))
 # print the summary
 # string index the word beetle and print it out
 # print the last word of the summary
@@ -97,12 +97,3 @@ print(str.replace(blue_beetle)
 
 # Exercise:
 # Write a program that asks the user for their name and favorite color, then prints a message using both pieces of information.
-
-
-
-
-
-
-
-
-
